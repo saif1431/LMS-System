@@ -13,7 +13,8 @@ export default {
         'primary': '#3E8982',
         'secondary': '#FEB705',
         'tertiary': '#333',
-        'txtColor': '#fff'
+        'txtColor': '#fff',
+        'paraColor': '#717171'
       }
     },
   },

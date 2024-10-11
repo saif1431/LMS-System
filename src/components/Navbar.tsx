@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from "../assets/logo.png";
 
+
 function CustomNavbar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -29,14 +30,16 @@ function CustomNavbar() {
 					<ul className='flex space-x-8 text-md'>
 						<li><NavLink to="/" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Home</NavLink></li>
 						<li><NavLink to="/PromotionalContent" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Promotional Content</NavLink></li>
-						<li><NavLink to="/Contact" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Contact Us</NavLink></li>
+						<li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Contact Us</NavLink></li>
 						<li><NavLink to="/About" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>About Us</NavLink></li>
 					</ul>
 				</div>
 
 				{/* Login and Create Account Buttons */}
 				<div className='items-center hidden space-x-4 lg:flex'>
+					<NavLink to={'/Login'}>
 					<button className='text-primary'>Login</button>
+					</NavLink>
 					<NavLink to={'/signup'}>
 					<button className='px-4 py-2 text-txtColor bg-primary rounded-full hover:bg-[#26625c]'>Create Account</button>
 					</NavLink>
@@ -49,11 +52,13 @@ function CustomNavbar() {
 					<ul className='flex flex-col space-y-4 text-md'>
 						<li><NavLink to="/" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Home</NavLink></li>
 						<li><NavLink to="/PromotionalContent" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Promotional Content</NavLink></li>
-						<li><NavLink to="/Contact" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Contact Us</NavLink></li>
+						<li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>Contact Us</NavLink></li>
 						<li><NavLink to="/About" className={({ isActive }) => isActive ? 'text-primary font-semibold border-b-2 border-primary' : 'text-tertiary'}>About</NavLink></li>
 					</ul>
 					<div className='mt-4 space-y-2'>
+						<NavLink to={"/Login"}>
 						<button className='block w-full text-left text-primary'>Login</button>
+						</NavLink>
 						<NavLink to={"/createAccount"}>
 						<button className='block w-full px-4 py-2 text-txtColor bg-primary rounded-full hover:bg-[#26625c]'>Create Account</button>
 						</NavLink>

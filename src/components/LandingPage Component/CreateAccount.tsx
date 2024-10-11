@@ -29,8 +29,8 @@ function CreateAccount() {
                   <input  className='w-full py-2 rounded-md'  type="text" placeholder='Enter your Mobile Number' />
             </div>
             <div className='flex flex-col items-center justify-between gap-3 lg:flex-row'>
-                  <NavLink className='py-3 font-semibold text-center text-white rounded-md w-full lg:w-[19vw] bg-primary'>Verification Via Text</NavLink>
-                  <NavLink className=' py-3 font-semibold text-center text-black border rounded-md bg-txtColor border-primary w-full lg:w-[19vw]'>Verification Via Whatsapp</NavLink>
+                  <NavLink to="/verification" className='py-3 font-semibold text-center text-white rounded-md w-full lg:w-[19vw] bg-primary'>Verification Via Text</NavLink>
+                  <NavLink to={"/verification"} className=' py-3 font-semibold text-center text-black border rounded-md bg-txtColor border-primary w-full lg:w-[19vw]'>Verification Via Whatsapp</NavLink>
             </div>
             <div className='flex items-center justify-end gap-3 transform -translate-y-5'>
                   <p className='font-semibold text-secondary'>Send Code</p>
@@ -49,7 +49,7 @@ function CreateAccount() {
             <button className='w-full px-4 py-3 text-lg font-semibold rounded-lg bg-primary text-txtColor'>SignUp</button>
             <div className='flex items-center justify-center gap-2'>
                   <p className='text-sm font-semibold'>Already have an account?</p>
-                  <NavLink className='font-semibold text-primary'>Login</NavLink>
+                  <NavLink to={"/Login"} className='font-semibold text-primary'>Login</NavLink>
             </div>
             </form>  
       </div>
