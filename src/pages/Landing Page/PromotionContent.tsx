@@ -4,10 +4,10 @@ import PromotionalReels from '../../components/LandingPage Component/Promotional
 
 function PromotionContent() {
   return (
-    <div className='px-10 py-10'>
+    <div className='px-4 py-4 lg:px-10'>
       <h1 className='text-3xl font-bold text-center'>Promotional Content</h1>
 
-      <div className='flex flex-wrap items-center w-full gap-6 mx-auto'>
+      <div className='flex flex-wrap items-center w-full mx-auto lg:gap-6'>
       <PromotionalVideo/>
       <PromotionalVideo/>
       <PromotionalVideo/>
@@ -17,7 +17,7 @@ function PromotionContent() {
       <PromotionalVideo/>
       <PromotionalVideo/>
       </div>
-      <div className='flex flex-wrap gap-8 item-center'>
+      <div className='flex flex-wrap w-full lg:gap-8 item-center'>
         <PromotionalReels/>
         <PromotionalReels/>
         <PromotionalReels/>
