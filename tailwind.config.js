@@ -17,6 +17,15 @@ export default {
         'paraColor': '#717171'
       }
     },
+    noScrollBar: {
+      '&::-webkit-scrollbar': {
+        display: 'none',
+      },
+      '&': {
+        '-ms-overflow-style': 'none',  // IE and Edge
+        'scrollbar-width': 'none',  // Firefox
+      },
+    },
   },
   plugins: [
     flowbite.plugin(),

@@ -10,6 +10,7 @@ import ServiceAggrement from './components/LandingPage Component/ServiceAggremen
 import CreateAccount from './components/LandingPage Component/CreateAccount'
 import Login from './components/LandingPage Component/Login'
 import Contact from './pages/Landing Page/Contact'
+import PromotionContent from './pages/Landing Page/PromotionContent'
 function App() {
   return (
 <>
@@ -24,6 +25,7 @@ function App() {
   <Route path="/signup" element={<CreateAccount />} />
   <Route path="/Login" element={<Login />} />
   <Route path="/contact" element={<Contact />} />
+  <Route path="/PromotionalContent" element={<PromotionContent />} />
 
 </Routes>
 <Footer/>

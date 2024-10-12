@@ -23,7 +23,7 @@ function Footer() {
       </div>
       <div className='flex flex-col items-start gap-2'>
            <NavLink to={'/about'}>About</NavLink>
-           <NavLink>Contact US</NavLink>
+           <NavLink to={'/contact'}>Contact US</NavLink>
            <NavLink to = {'/termCondition'}>Terms and Conditions</NavLink>
           
       </div>
