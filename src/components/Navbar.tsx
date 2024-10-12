@@ -59,7 +59,7 @@ function CustomNavbar() {
 						<NavLink to={"/Login"}>
 						<button className='block w-full text-left text-primary'>Login</button>
 						</NavLink>
-						<NavLink to={"/createAccount"}>
+						<NavLink to={"/signup"}>
 						<button className='block w-full px-4 py-2 text-txtColor bg-primary rounded-full hover:bg-[#26625c]'>Create Account</button>
 						</NavLink>
 					</div>
