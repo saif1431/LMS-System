@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import ReviewBox from './ReviewBox'
 
 function ReviewSection() {

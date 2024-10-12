@@ -1,3 +1,4 @@
+// @ts-ignore
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../assets/FooterLogo.png'
@@ -7,7 +8,7 @@ import { FaYoutube } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import appleImg from '../assets/apple.png'
 import playStoreImg from '../assets/google-play.png'
-import termCondition from './LandingPage Component/TermCondition.js'
+// import termCondition from './LandingPage Component/TermCondition.tsx'
  
 function Footer() {
   return (

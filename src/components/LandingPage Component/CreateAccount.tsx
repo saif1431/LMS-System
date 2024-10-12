@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../../assets/FooterLogo.png'
+// import logo from '../../assets/FooterLogo.png'
 import frame from '../../assets/Frame 106.png'
 
 function CreateAccount() {
@@ -22,7 +22,7 @@ function CreateAccount() {
             <NavLink to="/student" className='py-3 font-semibold text-center text-white rounded-md w-full lg:w-[19vw] bg-primary'>
               As a Student
             </NavLink>
-                  <NavLink className=' py-3 font-semibold text-center text-black border rounded-md bg-txtColor border-primary w-full lg:w-[19vw]'>As a Guardian</NavLink>
+                  <NavLink to={"/guardian"} className=' py-3 font-semibold text-center text-black border rounded-md bg-txtColor border-primary w-full lg:w-[19vw]'>As a Guardian</NavLink>
             </div>
             <div className='flex flex-col gap-2'>
                   <label className='font-semibold' htmlFor="">Phone Number</label>
@@ -54,7 +54,7 @@ function CreateAccount() {
             </form>  
       </div>
       <div className='form-data w-full  lg:w-[45%] h-[40%] '>
-           <img src={frame} alt="" />
+           <img src={frame} alt="logo" />
       </div>
       
     </div>

@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../../assets/FooterLogo.png'
+// import logo from '../../assets/FooterLogo.png'
 import frame from '../../assets/LoginImg.png'
 
 

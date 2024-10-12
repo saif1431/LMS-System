@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import heroImg from '../../assets/heroImg1.png'
 import { FaArrowRightLong } from "react-icons/fa6";
 

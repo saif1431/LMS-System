@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import HomeLandingPage from '../../components/LandingPage Component/HomeLandingPage'
 import HomeFacilities from '../../components/LandingPage Component/HomeFacilities'
 import HomeCourses from '../../components/LandingPage Component/HomeCourses'
