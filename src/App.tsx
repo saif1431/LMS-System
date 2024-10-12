@@ -11,6 +11,7 @@ import CreateAccount from './components/LandingPage Component/CreateAccount'
 import Login from './components/LandingPage Component/Login'
 import Contact from './pages/Landing Page/Contact'
 import PromotionContent from './pages/Landing Page/PromotionContent'
+import DashBoard from './pages/Teacher Page/DashBoard'
 function App() {
   return (
 <>
@@ -26,6 +27,7 @@ function App() {
   <Route path="/Login" element={<Login />} />
   <Route path="/contact" element={<Contact />} />
   <Route path="/PromotionalContent" element={<PromotionContent />} />
+  <Route path="/Dashboard" element={<DashBoard />} />
 
 </Routes>
 <Footer/>
